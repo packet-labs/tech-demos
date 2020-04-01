@@ -1,6 +1,6 @@
 variable "auth_token" {}
 variable "project_id" {}
-variable "hostname" {default = "verizon-web-0"}
+variable "hostname" {default = "web-0"}
 variable "size" {default = "t1.small.x86"}
 variable "facility" {default = "ewr1"}
 variable "os" {default = "centos_7"}
