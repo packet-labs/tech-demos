@@ -1,6 +1,6 @@
 variable "auth_token" {}
 variable "project_id" {}
-variable "hostname" {default = "os-controller-verizon"}
+variable "hostname" {default = "os-controller"}
 variable "size" {default = "m2.xlarge.x86"}
 variable "facility" {default = "sjc1"}
 variable "os" {default = "centos_7"}
