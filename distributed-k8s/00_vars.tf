@@ -8,7 +8,7 @@ variable "organization_id" {
 
 variable "project_name" {
     description = "The name you want to give to your new Packet Project"
-    default = "verizon_distributed_k8s"
+    default = "distributed_k8s"
 }
 
 variable "operating_system" {
